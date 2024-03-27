@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantics in HTML</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Hind:wght@300;400;500;600;700&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header><h1>HTML Semantic Tags for Structure</h1></header>
+    <main>
+      <article>
+        <p>
+          Semantic HTML tags are tags that define the meaning of the content
+          they contain. For example, tags like  &lt;header&gt; &lt;article&gt; 
+          and  &lt;footer&gt;  are semantic HTML tags. They clearly indicate the
+          role of the content they contain. On the other hand, tags like 
+          &lt;div&gt;  and  &lt;span&gt;  are typical examples of non-semantic HTML
+          elements. They serve only as content holders but give no indication as
+          to what type of content they contain or what role that content plays
+          on the page.
+        </p>
+        <figure>
+          <img
+            src="https://media.licdn.com/dms/image/D4E12AQGuR3Fo5vHW9A/article-cover_image-shrink_720_1280/0/1691429662154?e=2147483647&v=beta&t=_vo7AXuXOCAsDO_Y4BikTZtORNJoL9zbTd9WeiLCZz4"
+            alt="Semantic HTML"
+          />
+        </figure>
+      </article>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="code">&lt;header&gt;</span></td>
+            <td><span class="name">The Header element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;header&gt;</code></strong> represents
+                introductory content, typically a group of introductory or
+                navigational aids. It may contain some heading elements but also
+                a logo, a search form, an author name, and other elements.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;footer&gt;</span></td>
+            <td><span class="name">The Footer element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;footer&gt;</code></strong> represents a
+                footer for its nearest ancestor sectioning content or sectioning
+                root element. A <code>&lt;footer&gt;</code> typically contains
+                information about the author of the section, copyright data or
+                links to related documents.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;main&gt;</span></td>
+            <td><span class="name">The Main element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;main&gt;</code></strong> represents the
+                dominant content of the
+                <strong><code>&lt;body&gt;</code></strong> of a document. The
+                main content area consists of content that is directly related
+                to or expands upon the central topic of a document, or the
+                central functionality of an application.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;nav&gt;</span></td>
+            <td><span class="name">The Navigation Section element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;nav&gt;</code></strong> represents a
+                section of a page whose purpose is to provide navigation links,
+                either within the current document or to other documents. Common
+                examples of navigation sections are menus, tables of contents,
+                and indexes.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;article&gt;</span></td>
+            <td><span class="name">The Article Contents element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;article&gt;</code></strong> represents a
+                self-contained composition in a document, page, application, or
+                site, which is intended to be independently distributable or
+                reusable</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;aside&gt;</span></td>
+            <td><span class="name">The Aside element</span></td>
+            <td>
+              <span class="descripsion"
+                >A portion of a document whose content is only indirectly
+                related to the document's main content, frequently presented as
+                sidebars or call-out boxes.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;section&gt;</span></td>
+            <td><span class="name">The Generic Section element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;section&gt;</code></strong> represents a
+                generic standalone section of a document, which doesn't have a
+                more specific semantic element to represent it. Sections should
+                always have a heading, with very few exceptions.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;p&gt;</span></td>
+            <td><span class="name">The Paragraph element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;p&gt;</code></strong> represents a
+                paragraph. Paragraphs are usually represented in visual media as
+                blocks of text separated from adjacent blocks by blank lines
+                and/or first-line indentation, but HTML paragraphs can be any
+                structural grouping of related content, such as images or form
+                fields.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;figure&gt;</span></td>
+            <td>
+              <span class="name">The Figure with Optional Caption element</span>
+            </td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;figure&gt;</code></strong> represents
+                self-contained content, potentially with an optional caption,
+                which is specified using the
+                <strong><code>&lt;figcaption&gt;</code></strong> element. The
+                figure, its caption, and its contents are referenced as a single
+                unit.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">&lt;figcaption&gt;</span></td>
+            <td><span class="name">The Figure Caption element</span></td>
+            <td>
+              <span class="descripsion"
+                >The <strong><code>&lt;figcaption&gt;</code></strong> represents
+                a caption or legend describing the rest of the contents of its
+                parent <code>&lt;figure&gt;</code> element, providing the
+                <strong><code>&lt;figure&gt;</code></strong> an accessible
+                description.</span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
